@@ -1,0 +1,67 @@
+/* Navbar */
+.navbar{
+	background: rgba(0, 0, 0, 0.75);
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.10 );
+	backdrop-filter: blur( 15px );
+	-webkit-backdrop-filter: blur( 15px );
+	border-radius: 0px 0px 10px 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+/* ---Mouse-Scroll--- */
+.mouse {
+	width: 40px;
+	height: 60px;
+	border: 2px solid #d1d5db;
+	border-radius: 60px;
+	position: relative;
+}
+.mouse::before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #d1d5db;
+	border-radius: 50%;
+	opacity: 1;
+	animation: wheel 2s infinite;
+	-webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 40px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 40px;
+	}
+}
+/* -------------------------------------------------- */
+
+
+.stroke-heading{
+	background-color: #868686;
+	color: #000000;
+	background-clip: text;
+	-webkit-text-stroke: 1px;
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-stroke-width: calc(1em/ 24) ;
+}
+
+/* #canvas{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background: transparent;
+	z-index: 40;
+} */

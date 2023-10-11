@@ -1,0 +1,102 @@
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+/* Body */
+body {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar */
+
+/* Firefox */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #331F5C;
+  scroll-behavior: smooth;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  /* display: none; */
+}
+
+*::-webkit-scrollbar-track {
+  background: #1E0048;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #331F5C;
+  border-radius: 50px;
+  border: 2px solid #331F5C;
+}
+
+/* Overflow */
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Background */
+body {
+  background:
+    url("./assets/Bg/bg.jpg");
+  background-size: cover;
+}
+
+/* Grid background */
+.grid-Bg {
+ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='1038' preserveAspectRatio='none' viewBox='0 0 1440 1038'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1056%26quot%3b)' fill='none'%3e%3cpath d='M207.11 818.68a91.22 91.22 0 1 0-156.02-94.57z' stroke='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M632.61 424.48 a18.69 18.69 0 1 0 37.38 0 a18.69 18.69 0 1 0 -37.38 0z' stroke='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3cpath d='M1109.36 745.26L1155.54 745.26L1155.54 829.98L1109.36 829.98z' stroke='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3cpath d='M87.13 169.21L187.19 169.21L187.19 269.27L87.13 269.27z' fill='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M495.66 815.39a45.58 45.58 0 1 0-55.37 72.42z' stroke='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M982.29 605.16 a57.74 57.74 0 1 0 115.48 0 a57.74 57.74 0 1 0 -115.48 0z' fill='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M178.55 64.5 a99.3 99.3 0 1 0 198.6 0 a99.3 99.3 0 1 0 -198.6 0z' stroke='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M830.47 930L865.79 930L865.79 965.32L830.47 965.32z' stroke='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M27.71 834.81a90.06 90.06 0 1 0 49.67-173.14z' fill='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3cpath d='M1336.33 112.27 a29.5 29.5 0 1 0 59 0 a29.5 29.5 0 1 0 -59 0z' stroke='rgba(25%2c 30%2c 107%2c 0.42)'%3e%3c/path%3e%3cpath d='M171.31 707.86L216.86 707.86L216.86 753.41L171.31 753.41z' stroke='rgba(25%2c 30%2c 107%2c 0.42)'%3e%3c/path%3e%3cpath d='M871.41 638.09a44.39 44.39 0 1 0-76.93 44.33z' fill='rgba(64%2c 11%2c 62%2c 0.24)'%3e%3c/path%3e%3cpath d='M305.16 683.3L362.33 683.3L362.33 702.8L305.16 702.8z' stroke='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3cpath d='M1169.37 129.53a16.51 16.51 0 1 0-25.9-20.49z' stroke='rgba(25%2c 30%2c 107%2c 0.42)'%3e%3c/path%3e%3cpath d='M415.48 371.02L452.29 371.02L452.29 407.83L415.48 407.83z' stroke='rgba(21%2c 26%2c 96%2c 0.46)'%3e%3c/path%3e%3cpath d='M379.49 344.86L399.14 344.86L399.14 421.82L379.49 421.82z' stroke='rgba(25%2c 30%2c 107%2c 0.42)'%3e%3c/path%3e%3cpath d='M314.93 413.49L387.25 413.49L387.25 509.89L314.93 509.89z' stroke='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3cpath d='M1144.84 673.74L1149.81 673.74L1149.81 678.71L1144.84 678.71z' stroke='rgba(90%2c 19%2c 64%2c 0.58)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1056'%3e%3crect width='1440' height='1038' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.glassmorphism{
+box-shadow: 0 8px 52px 0 rgba(31, 38, 135, 0.233);
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+}
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Media query for larger screens */
+@media screen and (min-width: 1366px) {
+  html,
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}
+@media screen and (min-width: 1080px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/* Text styles */
+@layer components {
+  .heading {
+    @apply text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight ;
+  }
+
+  .subHeading {
+    @apply text-3xl font-bold tracking-tight text-gray-200;
+  }
+
+  .paragraph {
+    @apply leading-normal text-gray-300 text-base;
+  }
+}
