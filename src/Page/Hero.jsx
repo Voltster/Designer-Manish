@@ -62,7 +62,7 @@ const Hero = () => {
             I am
             <span className="text-pink-600 backdrop-blur-[2px] stroke-[2px] stroke-slate-800">
               <Typewriter
-                words={[" Graphic Designer Rohit"]}
+                words={[" Graphic Designer"]}
                 loop={true}
                 cursor
                 //  cursorStyle='_'
